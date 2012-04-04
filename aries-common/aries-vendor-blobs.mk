@@ -33,20 +33,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/aries-common/proprietary/libsrv_init.so:system/vendor/lib/libsrv_init.so \
     vendor/samsung/aries-common/proprietary/libsrv_um.so:system/vendor/lib/libsrv_um.so \
     vendor/samsung/aries-common/proprietary/libusc.so:system/vendor/lib/libusc.so \
-    vendor/samsung/aries-common/proprietary/cleaningmodules:script/cleaningmodules \
-    vendor/samsung/aries-common/proprietary/nstools.sh:script/nstools.sh \
-    vendor/samsung/aries-common/proprietary/logcat_module:system/etc/init.d/logcat_module \
-    vendor/samsung/aries-common/proprietary/S99screenstate_scaling:system/etc/init.d/S99screenstate_scaling \
-    vendor/samsung/aries-common/proprietary/screenstate_scaling:system/etc/glitch-config/screenstate_scaling \
-    vendor/samsung/aries-common/proprietary/sleep_governor:system/etc/glitch-config/sleep_governor \
-    vendor/samsung/aries-common/proprietary/logcat-off:system/bin/logcat-off \
-    vendor/samsung/aries-common/proprietary/logcat-on:system/bin/logcat-on \
-    vendor/samsung/aries-common/proprietary/sysinit:system/bin/sysinit \
-    vendor/samsung/aries-common/proprietary/ansi_cprng.ko:system/lib/modules/ansi_cprng.ko \
-    vendor/samsung/aries-common/proprietary/fuse.ko:system/lib/modules/fuse.ko \
-    vendor/samsung/aries-common/proprietary/gspca_main.ko:system/lib/modules/gspca_main.ko \
-    vendor/samsung/aries-common/proprietary/logger.ko:system/lib/modules/logger.ko \
-    vendor/samsung/aries-common/proprietary/nls_utf8.ko:system/lib/modules/nls_utf8.ko \
 
 # tvout
 PRODUCT_COPY_FILES += \
