@@ -14,26 +14,26 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES := \
-    vendor/samsung/fascinatemtd/proprietary/libril.so:obj/lib/libril.so \
-    vendor/samsung/fascinatemtd/proprietary/libsecril-client.so:obj/lib/libsecril-client.so
+    vendor/samsung/mesmerizemtd/proprietary/libril.so:obj/lib/libril.so \
+    vendor/samsung/mesmerizemtd/proprietary/libsecril-client.so:obj/lib/libsecril-client.so
 
 
 # All the blobs necessary for galaxys devices
 PRODUCT_COPY_FILES += \
-    vendor/samsung/fascinatemtd/proprietary/libril.so:system/lib/libril.so \
-    vendor/samsung/fascinatemtd/proprietary/libsecril-client.so:system/lib/libsecril-client.so \
-    vendor/samsung/fascinatemtd/proprietary/libsec-ril40.so:system/lib/libsec-ril40.so \
-    vendor/samsung/fascinatemtd/proprietary/rild:system/bin/rild \
-    vendor/samsung/fascinatemtd/proprietary/pppd_runner:system/bin/pppd_runner \
-    vendor/samsung/fascinatemtd/proprietary/gpsd:system/vendor/bin/gpsd \
-    vendor/samsung/fascinatemtd/proprietary/gps.conf:system/etc/gps.conf \
-    vendor/samsung/fascinatemtd/proprietary/gps.aries.so:system/lib/hw/gps.aries.so \
-    vendor/samsung/fascinatemtd/proprietary/libsensor_yamaha_test.so:system/vendor/lib/libsensor_yamaha_test.so \
-    vendor/samsung/fascinatemtd/proprietary/geomagneticd:system/vendor/bin/geomagneticd \
-    vendor/samsung/fascinatemtd/proprietary/orientationd:system/vendor/bin/orientationd \
-    vendor/samsung/fascinatemtd/proprietary/ip-up:system/etc/ppp/ip-up \
-    vendor/samsung/fascinatemtd/proprietary/ip-down:system/etc/ppp/ip-down \
-    vendor/samsung/fascinatemtd/proprietary/chap-secrets:system/etc/ppp/chap-secrets \
-    vendor/samsung/fascinatemtd/proprietary/options:system/etc/ppp/options \
-    vendor/samsung/fascinatemtd/proprietary/pap-secrets:system/etc/ppp/pap-secrets \
-    vendor/samsung/fascinatemtd/proprietary/90call_vol_fascinate:system/etc/init.d/90call_vol_fascinate
+    vendor/samsung/mesmerizemtd/proprietary/libril.so:system/lib/libril.so \
+    vendor/samsung/mesmerizemtd/proprietary/libsecril-client.so:system/lib/libsecril-client.so \
+    vendor/samsung/mesmerizemtd/proprietary/libsec-ril40.so:system/lib/libsec-ril40.so \
+    vendor/samsung/mesmerizemtd/proprietary/rild:system/bin/rild \
+    vendor/samsung/mesmerizemtd/proprietary/pppd_runner:system/bin/pppd_runner \
+    vendor/samsung/mesmerizemtd/proprietary/gpsd:system/vendor/bin/gpsd \
+    vendor/samsung/mesmerizemtd/proprietary/gps.conf:system/etc/gps.conf \
+    vendor/samsung/mesmerizemtd/proprietary/gps.aries.so:system/lib/hw/gps.aries.so \
+    vendor/samsung/mesmerizemtd/proprietary/libsensor_yamaha_test.so:system/vendor/lib/libsensor_yamaha_test.so \
+    vendor/samsung/mesmerizemtd/proprietary/geomagneticd:system/vendor/bin/geomagneticd \
+    vendor/samsung/mesmerizemtd/proprietary/orientationd:system/vendor/bin/orientationd \
+    vendor/samsung/mesmerizemtd/proprietary/ip-up:system/etc/ppp/ip-up \
+    vendor/samsung/mesmerizemtd/proprietary/ip-down:system/etc/ppp/ip-down \
+    vendor/samsung/mesmerizemtd/proprietary/chap-secrets:system/etc/ppp/chap-secrets \
+    vendor/samsung/mesmerizemtd/proprietary/options:system/etc/ppp/options \
+    vendor/samsung/mesmerizemtd/proprietary/pap-secrets:system/etc/ppp/pap-secrets \
+    vendor/samsung/mesmerizemtd/proprietary/90call_vol_fascinate:system/etc/init.d/90call_vol_fascinate
