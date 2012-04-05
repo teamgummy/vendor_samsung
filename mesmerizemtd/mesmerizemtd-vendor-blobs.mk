@@ -36,4 +36,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/mesmerizemtd/proprietary/chap-secrets:system/etc/ppp/chap-secrets \
     vendor/samsung/mesmerizemtd/proprietary/options:system/etc/ppp/options \
     vendor/samsung/mesmerizemtd/proprietary/pap-secrets:system/etc/ppp/pap-secrets \
+    vendor/samsung/mesmerizemtd/proprietary/cleaningmodules:script/cleaningmodules \
+    vendor/samsung/mesmerizemtd/proprietary/nstools.sh:script/nstools.sh \
+    vendor/samsung/mesmerizemtd/proprietary/logcat_module:system/etc/init.d/logcat_module \
+    vendor/samsung/mesmerizemtd/proprietary/S99screenstate_scaling:system/etc/init.d/S99screenstate_scaling \
+    vendor/samsung/mesmerizemtd/proprietary/screenstate_scaling:system/etc/glitch-config/screenstate_scaling \
+    vendor/samsung/mesmerizemtd/proprietary/sleep_governor:system/etc/glitch-config/sleep_governor \
+    vendor/samsung/mesmerizemtd/proprietary/logcat-off:system/bin/logcat-off \
+    vendor/samsung/mesmerizemtd/proprietary/logcat-on:system/bin/logcat-on \
+    vendor/samsung/mesmerizemtd/proprietary/sysinit:system/bin/sysinit \
     vendor/samsung/mesmerizemtd/proprietary/90call_vol_fascinate:system/etc/init.d/90call_vol_fascinate
