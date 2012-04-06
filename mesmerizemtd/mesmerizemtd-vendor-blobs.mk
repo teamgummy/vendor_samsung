@@ -45,4 +45,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/mesmerizemtd/proprietary/logcat-off:system/bin/logcat-off \
     vendor/samsung/mesmerizemtd/proprietary/logcat-on:system/bin/logcat-on \
     vendor/samsung/mesmerizemtd/proprietary/sysinit:system/bin/sysinit \
-    vendor/samsung/mesmerizemtd/proprietary/90call_vol_fascinate:system/etc/init.d/90call_vol_fascinate
+    vendor/samsung/mesmerizemtd/proprietary/hosts:system/etc/hosts \
+    vendor/samsung/mesmerizemtd/proprietary/block_ads:system/etc/init.d/block_ads \
+    vendor/samsung/mesmerizemtd/proprietary/lib.sh:system/bin/lib.sh \
+    vendor/samsung/mesmerizemtd/proprietary/callboost:system/bin/callboost
+
